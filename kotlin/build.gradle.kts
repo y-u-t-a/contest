@@ -1,5 +1,7 @@
+// AtCoder の実行環境: https://atcoder.jp/contests/abc116/rules?lang=ja
+
 plugins {
-    kotlin("jvm") version "1.9.21"
+    kotlin("jvm") version "1.8.20"
 }
 
 repositories {
@@ -14,5 +16,5 @@ tasks.test {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(19)
 }
